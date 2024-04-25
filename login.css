@@ -1,0 +1,49 @@
+#loginpage{
+text-align: center;
+/* background-color:#FFC0CB;margin: 0px;
+border: 1px solid;
+width: 20%;
+height: 50%;
+margin-right: 20%;
+text-align: center;
+padding-right: 40%; */
+text-align: center;
+border: 1px solid ;
+width: 35%;
+margin: auto;
+background-color:pink;
+border: left solid  4px;
+padding-top: 50px;
+}
+#logo{
+    object-fit: cover;
+    width: 10%;
+    border-radius: 70%;
+    width: 10%;
+    height: 25%;
+
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    gap: 3%;
+    font-size: large;
+}
+input{
+   margin-left: 20%; 
+   border-radius: 15px;
+   height: 30px;
+   
+}
+#loginbutton{
+    border-radius: 15px;
+    width: 15%;
+    height: 40%;
+    margin-left: 20%;
+    background-color: purple;
+}
+body{
+    text-align: center;
+}

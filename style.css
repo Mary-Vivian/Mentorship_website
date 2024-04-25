@@ -1,0 +1,64 @@
+#navbar{
+    gap: 10%;
+    list-style: none;
+    gap: 10%;
+    padding-left: 30%;
+    
+}
+#logo{
+    object-fit: cover;
+    width: 10%;
+    border-radius: 70%;
+    width: 10%;
+    height: 25%;
+
+}
+#logoandnavbar{
+    display: flex;
+    gap: 7%;
+}
+#navbar{
+    display: flex;
+    gap: 7%;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+#about{
+    color:darkmagenta;
+}
+#invite{
+    color: darkmagenta;
+}
+#topnav{
+text-align: center;
+color: blueviolet;
+margin-right: 50%;
+}
+.landingpage{
+    background-color: pink;
+    
+}
+#introduction{
+    display: flex;
+    gap: 20%;
+   
+    
+}
+#mentorshipimage{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150%;
+    height: 100%;
+}
+#about{
+    padding-left: 10%;
+}
+#invite{
+    padding-left: 10%;
+     
+}
+body{
+    background-color: pink;
+}

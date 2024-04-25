@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    gap: 7%;
+    font-size: large;
+}
+#logo{
+    object-fit: cover;
+    width: 10%;
+    /* border-radius: 70%; */
+    width: 10%;
+    height: 25%;
+    padding-left: 20%;
+
+}
+#goalssection{
+    font-size: x-small;
+}
+#longtermgoals{
+    font-size: x-small;
+}

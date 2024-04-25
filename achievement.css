@@ -1,0 +1,25 @@
+#logo{
+    object-fit: cover;
+    width: 10%;
+    /* border-radius: 70%; */
+    width: 10%;
+    height: 25%;
+    padding-left: 20%;
+
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    gap: 7%;
+    font-size: large;
+}
+
+#achievepage{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
+body{
+    background-color: pink;
+}

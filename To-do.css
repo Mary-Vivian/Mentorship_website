@@ -1,0 +1,45 @@
+#logo{
+    object-fit: cover;
+    width: 10%;
+    /* border-radius: 70%; */
+    width: 10%;
+    height: 25%;
+
+}
+body{
+    text-align: center;
+    background-color: pink;
+}
+#to-do{
+padding-right: 60%;
+}
+input{
+    margin-left: 15%;
+    border-radius: 15px;
+    height: 30px;
+    font-size: larger;
+}
+#navbar{
+    display: flex;
+    gap: 3%;
+    padding-left: 20%;
+    font-size: large;
+}
+a{
+text-decoration: none;
+}
+li{
+    margin: 0px;
+}
+#To-do page{
+padding-left: 20%;
+}
+body{
+    text-align: center;
+    border: 1px solid ;
+    width: 40%;
+    margin: auto;
+    background-color:pink;
+    border: left solid  4px;
+    padding-top: 50px;
+}
