@@ -21,3 +21,55 @@ a{
 #longtermgoals{
     font-size: x-small;
 }
+input{
+    margin-left: 15%;
+    border-radius: 15px;
+    height: 30px;
+    font-size: larger;
+}
+body{
+    background-color: pink;
+}
+@media screen and (max-width:475px) and (min-width:375px){
+    #loginpage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 55%;
+        margin: auto;
+        background-color:pink;
+        border: left solid  4px;
+        padding-top: 50px;
+        }
+        input{
+            margin-left: 5%; 
+            border-radius: 15px;
+            height: 10px;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: large;
+        }
+        #loginbutton{
+            border-radius: 15px;
+            width: 35%;
+            height: 40%;
+            margin-left: 20%;
+            background-color: purple;
+        }
+}
+@media screen and (max-width:600px)and (min-width:475px){
+       
+       input{
+        height: 10%;
+        width: 60px;
+       }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: smaller;
+        }
+
+}

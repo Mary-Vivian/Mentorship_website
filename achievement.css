@@ -23,3 +23,61 @@ a{
 body{
     background-color: pink;
 }
+input{
+    margin-left: 15%;
+    border-radius: 15px;
+    height: 30px;
+    font-size: larger;
+}
+@media screen and (max-width:475px) and (min-width:375px){
+    #loginpage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 55%;
+        margin: auto;
+        background-color:pink;
+        border: left solid  4px;
+        padding-top: 50px;
+        }
+        input{
+           
+            border-radius: 55px;
+            height: 10%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: large;
+        }
+        body{
+            font-size: large;
+        }
+
+}
+@media screen and (max-width:600px)and (min-width:475px){
+    #loginpage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 75%;
+        margin: auto;
+        background-color:pink;
+        border: left solid  4px;
+        padding-top: 50px;
+        }
+        input{
+            margin-left: 5%; 
+            border-radius: 45px;
+            height: 20%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: smaller;
+        }
+   
+
+}

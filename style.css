@@ -62,3 +62,93 @@ margin-right: 50%;
 body{
     background-color: pink;
 }
+@media screen and (max-width:475px) and (min-width:375px){
+    
+    #navbar{
+     flex-wrap: wrap;
+        
+    }  
+    #logoandnavbar{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5px;
+    }  
+    #introduction{
+        display: flex;
+        gap: 2px;
+       
+        
+    }
+    #about{
+        padding-left: 10%;
+        font-size: smaller;
+    }
+    #invite{
+        padding-left: 10%;
+        font-size: smaller;
+}
+#mentorshipimage{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+}
+@media screen and (max-width:600px)and (min-width:475px){
+   
+    #navbar{
+       flex-wrap: wrap;
+      
+        
+    }  
+    #logoandnavbar{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 3px;
+    }  
+    #introduction{
+      flex-wrap: wrap;
+        gap: 2%;
+      
+    }
+    #about{
+        padding-left: 10%;
+        font-size: smaller;
+    }
+    #invite{
+        padding-left: 10%;
+        font-size: smaller;
+        
+   
+}
+#mentorshipimage{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+}
+@media screen and (max-width:740px)and (min-width:600px){
+    #signuppage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 95%;
+    
+        }
+        input{
+           padding-right: 20%;
+            border-radius: 0px;
+            height: 5px;
+            width: 5%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3px;
+            font-size: larger;
+        }
+
+
+}
+
