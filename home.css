@@ -1,0 +1,41 @@
+#landing{
+    display: flex;
+    gap: 5%;
+}
+#logo{
+    object-fit: cover;
+    /* border-radius: 70%; */
+    width: 3%;
+    height: 3%;
+}
+#topnav{
+    text-align: center;
+    color: blueviolet;
+}
+#logoname{
+    font-size: larger;
+display: flex;
+padding-left: 5%;
+}
+body{
+    background-color: pink;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* #landingimage{
+    padding-left: 10%;
+    padding-right: 10%;
+    object-fit: cover;
+    width: 100%;
+} */
+#welcomenote{
+    font-size: xx-large;
+    padding-left: 10%;
+}
+#Getstarted{
+    border-radius: 15px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
+    
+}

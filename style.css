@@ -10,7 +10,7 @@
     display: flex;
     gap: 7%;
     background-color: aliceblue;
-    
+
     
 }
 #navbar{
@@ -31,10 +31,10 @@ a{
 #topnav{
 text-align: center;
 color: blueviolet;
-margin-right: 50%;
-text-align: center;
+margin-right: 20%;
 padding-left: 20%;
 padding-bottom: 5%;
+font-size: xx-large;
 }
 .landingpage{
     background-color: pink;
@@ -49,9 +49,9 @@ padding-bottom: 5%;
 #mentorshipimage{
     object-fit: cover;
     /* border-radius: 50%;  */
-    width: 100%;
-    height: 100%;
-   padding-left: 50%;
+    width: 80%;
+    height: 80%;
+   padding-left: 20%;
 }
 #about{
     padding-left: 10%;
