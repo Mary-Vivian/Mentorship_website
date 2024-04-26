@@ -9,40 +9,32 @@
 </head>
 <body>
     <div id="loginpage">
-        <li id="navbar">
-            <a href="signup.html">signup</a>
-            <a href="login.html">Login</a>
-            <a href="mentorprofile.html">Mentor'sProfile</a>
-            <a href="goals.html">Goals</a>
-            <a href="achievement.html">Achievements</a>
-            <a href="To-do.html">To-Do</a>
-        </li>
-
-    <form>
-        <p>Already have an account? Log in  <a href="signup.html">Login</a></p>
+    <form action="index.html">
+       
         <img src="images/mylogo.png" id="logo">
         <br>
-        <hi>Sign In</hi>
-        <label for="name">Name</label>
+        <label for="name"> Username</label>
         <br/>
         <br>
-        <input name ="name" type="text" placeholder="Enter your  Name"/>
+        <input name ="name" type="text" placeholder="Enter your  Name" required/>
         <br/>
         <br/>
-        <label for="email">Username</label>
+        <label for="email">Email</label>
         <br/>
         <br/>
-        <input name="email" type="email" placeholder="Enter your name"/>
+        <input name="email" type="email" placeholder="Enter your email" required/>
         <br/>
         <br/>
         <label for="password">Password</label>
         <br/>
         <br/>
-        <input name="password" type="password" placeholder="Password"/>
+        <input name="password" type="password" placeholder="Password" required/>
         <br>
         <br>
+        <button id="loginbutton">Log In</button><br>
+        <p>Don't  have an account?<a href="signup.html">Login</a></p>
      </form>
-     <a href="signup.html"> <button id="loginbutton">Log In</button></a>
+     
     
      </div>
 </body>

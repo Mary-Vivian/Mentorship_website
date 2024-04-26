@@ -40,6 +40,14 @@ form{
 label{
     padding-right: 15%;
 }
+body{
+    border: 1px solid;
+    width: 40%;
+    padding-right: 20%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 @media screen and (max-width:475px) and (min-width:375px){
     #loginpage{
         text-align: center;
@@ -81,4 +89,25 @@ label{
             font-size: smaller;
         }
 
+}
+@media screen and (max-width:1024px){
+    #loginpage{
+        border: 1px solid ;
+        width: 55%;
+        margin: auto;
+        background-color:pink;
+        border: left solid  4px;
+        padding-top: 50px;
+        }
+        input{
+            margin-left: 5%; 
+            border-radius: 15px;
+            height: 10px;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: smaller;
+        }
 }

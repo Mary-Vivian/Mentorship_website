@@ -128,3 +128,33 @@ label{
 
 
 }
+@media screen and (max-width:1024px){
+    #signuppage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 95%;
+    
+        }
+        input{
+           padding-right: 20%;
+            border-radius: 15px;
+            height: 50px;
+            width: 5%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3px;
+            font-size: larger;
+        }
+        #sigupbutton{
+            border-radius: 15px;
+            width: 35%;
+            height: 40%;
+            margin-left: 20%;
+            background-color: purple;
+        }
+
+
+}

@@ -116,6 +116,13 @@ label{
             gap: 3px;
             font-size: larger;
         }
+        #loginbutton{
+            border-radius: 15px;
+            width: 35%;
+            height: 40%;
+            margin-left: 20%;
+            background-color: purple;
+        }
 
 
 }
@@ -129,15 +136,22 @@ label{
         }
         input{
            padding-right: 20%;
-            border-radius: 0px;
-            height: 5px;
+            border-radius: 25px;
+            height: 50px;
             width: 5%;
             
          }
          #navbar{
             flex-wrap: wrap;
             gap: 3px;
-            font-size: larger;
+            font-size: xx-large;
+        }
+        #loginbutton{
+            border-radius: 15px;
+            width: 25%;
+            height: 40%;
+            margin-left: 20%;
+            background-color: purple;
         }
 }
 

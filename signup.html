@@ -8,16 +8,7 @@
 </head>
 <body>
      <div id="signuppage">
-    <form >
-        <li id="navbar">
-            <a href="index.html">Home</a>
-            <a href="login.html">Login</a>
-            <a href="mentorprofile.html">Mentor'sProfile</a>
-            <a href="goals.html">Goals</a>
-            <a href="achievement.html">Achievements</a>
-            <a href="To-do.html">To-Do</a>
-        </li>
-        <p>Don't have an account? Sign up<a href="login.html">Sign Up</a></p>
+    <form action="login.html" >
         <img src="images/mylogo.png" id="logo">
         <h1>Sign Up</h1>
         <br/>
@@ -25,25 +16,25 @@
         <label for="name"> First Name</label>
         <br>
         <br>
-        <input name="name" type="text" placeholder="Enter your First Name"/>
+        <input name="name" type="text" placeholder="Enter your First Name" required/>
         <br/>
         <br/>
         <label for="name">Last  Name</label>
         <br>
         <br>
-        <input name="name" type="text" placeholder="Enter your Last Name"/>
+        <input name="name" type="text" placeholder="Enter your Last Name" required/>
          <br>
          <br>
         <label for="name">Student code</label>
         <br>
         <br>
-        <input name="name" type="text" placeholder="Enter your code"/>
+        <input name="name" type="text" placeholder="Enter your code" required/>
         <br>
         <br>
         <label for="email">Email</label>
         <br>
         <br>
-        <input name="email" type="email" placeholder="Enter your Email"/>
+        <input name="email" type="email" placeholder="Enter your Email" required/>
         <br/>
         <br/>
         <label for="password">password</label>
@@ -52,15 +43,17 @@
         <input name="password" type="password" placeholder="Enter password"/>
         <br/>
         <br>
-        <label for="Username">Email</label>
+ 
+        
+        
         <br>
         <br>
-        <input name="Username" type="text" placeholder="Enter your Username"/>
-        <br>
-        <br>
-        </form>
-        <a href="login.html"> <button id="signupbutton">Sign up</button></a>
+        <button id="signupbutton">Sign up</button>
 
+        <p>Already have an account? <a href="login.html">Sign Up</a></p>
+
+        </form>
+       
     </div>
         
    

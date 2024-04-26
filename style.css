@@ -2,20 +2,25 @@
     gap: 10%;
     list-style: none;
     gap: 10%;
-    padding-left: 30%;
+    padding-left: 50%;
+    font-size: x-large;
+ 
     
 }
 #logo{
     object-fit: cover;
-    width: 10%;
-    border-radius: 70%;
-    width: 10%;
-    height: 25%;
+    border-radius: 25px;
+    width: 30px;
+    height: 35px;
 
 }
 #logoandnavbar{
     display: flex;
     gap: 7%;
+    border: 1px solid;
+    background-color: aliceblue;
+    height: 40%;
+    border-top: 10%;
 }
 #navbar{
     display: flex;
@@ -26,15 +31,17 @@ a{
     text-decoration: none;
 }
 #about{
-    color:darkmagenta;
+    color:blueviolet;
 }
 #invite{
-    color: darkmagenta;
+    color: blueviolet;
+    top: -20%;
 }
 #topnav{
 text-align: center;
 color: blueviolet;
 margin-right: 50%;
+text-align: center;
 }
 .landingpage{
     background-color: pink;
@@ -48,7 +55,7 @@ margin-right: 50%;
 }
 #mentorshipimage{
     object-fit: cover;
-    border-radius: 50%;
+    /* /* border-radius: 50%; */
     width: 150%;
     height: 100%;
 }
@@ -148,7 +155,48 @@ body{
             gap: 3px;
             font-size: larger;
         }
+        #mentorshipimage{
+            object-fit: cover;
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+        }
 
 
+}
+@media screen and (max-width:1024px){
+    #signuppage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 95%;
+        height: 100%;
+    
+        }
+        input{
+           padding-right: 20%;
+            border-radius: 0px;
+            height: 5px;
+            width: 5%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: xx-large;
+            padding-right: 20%;
+            display: block;
+
+        }
+    #landingpage{
+        flex-wrap: wrap;
+    }
+    #mentorshipimage{
+        object-fit: cover;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+      
 }
 

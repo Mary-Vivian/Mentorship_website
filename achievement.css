@@ -42,7 +42,7 @@ input{
         }
         input{
            
-            border-radius: 55px;
+            border-radius: 10px;
             height: 10%;
             
          }
@@ -69,8 +69,8 @@ input{
         }
         input{
             margin-left: 5%; 
-            border-radius: 45px;
-            height: 20%;
+            border-radius: 15px;
+            height: 10%;
             
          }
          #navbar{
@@ -80,4 +80,17 @@ input{
         }
    
 
+}
+@media screen and (max-width:1024px){
+    #navbar{
+        flex-wrap: wrap;
+        gap: 3%;
+        font-size: xx-large;
+    }
+    input{
+        margin-left: 5%; 
+        border-radius: 35px;
+        height: 20%;
+        
+     }
 }
