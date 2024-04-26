@@ -22,7 +22,7 @@ a{
 #navbar{
     display: flex;
     gap: 3%;
-    font-size: large;
+    font-size: xx-large;
 }
 input{
    margin-left: 20%; 
