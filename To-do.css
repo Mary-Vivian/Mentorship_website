@@ -18,21 +18,33 @@ input{
     border-radius: 15px;
     height: 30px;
     font-size: larger;
+
 }
 #navbar{
     display: flex;
     gap: 3%;
-    padding-left: 5%;
-    font-size: xx-large;
+    padding-left: 3%;
+    font-size: x-large;
 }
 a{
 text-decoration: none;
 }
 li{
-    margin: 0px;
+    /* padding-left: 20%;
+    margin-left: 20%; */
+  
 }
-#To-do page{
-padding-left: 20%;
+ol{
+    padding-right: 35%;
+}
+checkbox{
+    margin-right: 20%;
+}
+#To-dopage{
+/* padding-left: 20%; */
+}
+#checkbox{
+padding-right: 40%;
 }
 body{
     text-align: center;
