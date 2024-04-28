@@ -13,18 +13,11 @@ input{
     border-radius: 15px;
     height: 30px;
 }
-#navbar{
-display: flex;
-gap: 3%;
-padding-left: 20%;
-font-size: large;
-}
 #logo{
     object-fit: cover;
-    width: 15%;
     /* border-radius: 70%; */
     width: 10%;
-    height: 25%;
+    height: 10%;
 
 }
 
@@ -52,11 +45,7 @@ label{
             width: 65%;
             
          }
-         #navbar{
-            flex-wrap: wrap;
-            font-size: xx-large;
-
-        }
+      
         #signupbutton{
             border-radius: 15px;
             width: 35%;

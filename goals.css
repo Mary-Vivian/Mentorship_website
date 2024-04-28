@@ -4,7 +4,7 @@ a{
 #navbar{
     display: flex;
     gap: 7%;
-    font-size: xx-large;
+    font-size: larger;
 }
 #logo{
     object-fit: cover;
@@ -25,6 +25,10 @@ input{
     margin-left: 15%;
     border-radius: 15px;
     height: 30px;
+    width: 40%;
+    font-size: larger;
+}
+li{
     font-size: larger;
 }
 body{

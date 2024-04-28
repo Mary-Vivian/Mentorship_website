@@ -1,8 +1,8 @@
 #navbar{
     display: flex;
     gap: 5%;
-    padding-left: 30%;
-    font-size: xx-large;
+    /* padding-left: 30%; */
+    font-size: larger;
 }
 a{
 text-decoration: none;
@@ -28,26 +28,33 @@ form{
 }
 #mentorlogo{
     text-align: center;
-    font-size: smaller;
+    font-size: x-large;
+    /* display: flex; */
+    gap: 10%;
     
 
 }
 #mentor{
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 70%;
     width: 30%;
+
+}
+#topbar{
+    font-size: small;
+   
 }
 label{
     padding-right: 15%;
 }
-body{
+/* /* body{
     border: 1px solid;
     width: 60%;
     padding-right: 20%;
     text-align: center;
     margin-left: 10%;
-    margin-right: 10%;
-}
+    margin-right: 10%; */
+/* } */ 
 @media screen and (max-width:475px) and (min-width:375px){
     #loginpage{
         text-align: center;
@@ -87,6 +94,8 @@ body{
             flex-wrap: wrap;
             gap: 3%;
             font-size: smaller;
+           
+          
         }
 
 }
@@ -107,7 +116,31 @@ body{
          }
          #navbar{
             flex-wrap: wrap;
-            gap: 3%;
+            gap: 3px;
             font-size: smaller;
+            
+        }
+}
+@media screen and (max-width:1280px){
+    #loginpage{
+        border: 1px solid ;
+        width: 55%;
+        margin: auto;
+        background-color:pink;
+        border: left solid  4px;
+        padding-top: 50px;
+        }
+        input{
+            margin-left: 5%; 
+            border-radius: 15px;
+            height: 30px;
+            font-size: x-large;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3px;
+            font-size: xx-large;
+            
         }
 }

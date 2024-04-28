@@ -5,8 +5,8 @@
 #logo{
     object-fit: cover;
     /* border-radius: 70%; */
-    width: 3%;
-    height: 3%;
+    width: 5%;
+    height: 5%;
 }
 #topnav{
     text-align: center;
@@ -39,3 +39,146 @@ body{
     height: 40px;
     
 }
+@media screen and (max-width:475px) and (min-width:375px){
+    
+    #landing{
+       flex-wrap: wrap;
+       
+    }
+    #logo{
+        object-fit: cover;
+        /* border-radius: 70%; */
+        width: 3%;
+        height: 3%;
+    }
+    #topnav{
+       padding-right: 30%;
+        font-size: xx-small;
+    }
+    #logoname{
+        font-size: larger;
+    padding-left: 5px;
+    }
+    body{
+        background-color: pink;
+    
+    }
+    #landingimage{
+        padding-left: 10px;
+        padding-right: 10px;
+        object-fit: cover;
+        width: 50%;
+    }
+    #welcomenote{
+        font-size: xx-small;
+        padding-left: 0px;
+    }
+    #Getstarted{
+        border-radius: 15px;
+        background-color: blueviolet;
+        width: 60px;
+        height: 40px;
+    }   
+        
+    
+
+}
+@media screen and (max-width:600px)and (min-width:475px){
+   
+    #navbar{
+       flex-wrap: wrap;
+      
+        
+    }  
+    #logoandnavbar{
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 3px;
+    }  
+    #introduction{
+      flex-wrap: wrap;
+        gap: 2%;
+      
+    }
+    #about{
+        padding-left: 10%;
+        font-size: smaller;
+    }
+    #invite{
+        padding-left: 10%;
+        font-size: smaller;
+        
+   
+}
+#mentorshipimage{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+}
+@media screen and (max-width:740px)and (min-width:600px){
+    #signuppage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 95%;
+    
+        }
+        input{
+           padding-right: 20%;
+            border-radius: 0px;
+            height: 5px;
+            width: 5%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3px;
+            font-size: larger;
+        }
+        #mentorshipimage{
+            object-fit: cover;
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+        }
+
+
+}
+@media screen and (max-width:1024px){
+    #signuppage{
+        text-align: center;
+        text-align: center;
+        border: 1px solid ;
+        width: 95%;
+        height: 100%;
+    
+        }
+        input{
+           padding-right: 20%;
+            border-radius: 0px;
+            height: 5px;
+            width: 5%;
+            
+         }
+         #navbar{
+            flex-wrap: wrap;
+            gap: 3%;
+            font-size: xx-large;
+            padding-right: 20%;
+            display: block;
+
+        }
+    #landingpage{
+        flex-wrap: wrap;
+    }
+    #mentorshipimage{
+        object-fit: cover;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+      
+}
+
